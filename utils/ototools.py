@@ -1,6 +1,8 @@
 import sounddevice as sd
 from scipy.io.wavfile import write
-import time
+from . import time
+
+dataset_dir = 'dataset'
 
 fs = 44100
 seconds = 1
@@ -30,4 +32,5 @@ def save(otos):
     for oto in line:
       print(oto)
       filename = oto["alphabet"] + time_stump + '.wav'
+      filename = os.path.join(dataset_dir, filename)
       write(filename, fs, oto["wave"])

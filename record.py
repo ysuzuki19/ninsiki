@@ -8,29 +8,10 @@ import numpy as np
 from functools import partial
 
 from utils import ototools
+from utils import syllables
 
-syllables_dir = 'syllables'
-dataset_dir = 'dataset'
-
-import os
-import json
-syllables = []
-with open(os.path.join(syllables_dir, 'all.txt'), 'r') as f:
-  lines = f.readlines()
-  oto_line = []
-  for line in lines:
-    line = line.strip('\n')
-    if line == '':
-      syllables.append(oto_line)
-      oto_line = []
-    else:
-      line = line.replace('\'', '"')
-      dic = json.loads(line)
-      oto_line.append(dic)
-
-print(syllables)
-
-exit ()
+otos = syllables.load()
+otos = syllables.onlyVowel(otos)
 
 class OtoRecorder(Frame):
   def __init__(self, oto):
@@ -64,7 +45,10 @@ def main():
       app.grid(row=j, column=max_column-i)
 
   save_btn = tkinter.Button(tki, text='save\notos', command=partial(ototools.save,otos))
-  save_btn.grid(row=len(otos[0])-1, column=max_column-len(otos)+1, rowspan=2, columnspan=2, sticky='nsew')
+  if len(otos) == 1:
+    save_btn.grid(row=5, column=1, rowspan=1, columnspan=1, sticky='nsew')
+  else:
+    save_btn.grid(row=len(otos[0])-1, column=max_column-len(otos)+1, rowspan=2, columnspan=2, sticky='nsew')
 
   tki.mainloop()
 
