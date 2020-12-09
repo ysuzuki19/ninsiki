@@ -1,0 +1,105 @@
+{'kana': 'あ', 'alphabet': 'a'}
+{'kana': 'い', 'alphabet': 'i'}
+{'kana': 'う', 'alphabet': 'u'}
+{'kana': 'え', 'alphabet': 'e'}
+{'kana': 'お', 'alphabet': 'o'}
+
+{'kana': 'か', 'alphabet': 'ka'}
+{'kana': 'き', 'alphabet': 'ki'}
+{'kana': 'く', 'alphabet': 'ku'}
+{'kana': 'け', 'alphabet': 'ke'}
+{'kana': 'こ', 'alphabet': 'ko'}
+
+{'kana': 'さ', 'alphabet': 'sa'}
+{'kana': 'し', 'alphabet': 'si'}
+{'kana': 'す', 'alphabet': 'su'}
+{'kana': 'せ', 'alphabet': 'se'}
+{'kana': 'そ', 'alphabet': 'so'}
+
+{'kana': 'た', 'alphabet': 'ta'}
+{'kana': 'ち', 'alphabet': 'ti'}
+{'kana': 'つ', 'alphabet': 'tu'}
+{'kana': 'て', 'alphabet': 'te'}
+{'kana': 'と', 'alphabet': 'to'}
+
+{'kana': 'な', 'alphabet': 'na'}
+{'kana': 'に', 'alphabet': 'ni'}
+{'kana': 'ぬ', 'alphabet': 'nu'}
+{'kana': 'ね', 'alphabet': 'ne'}
+{'kana': 'の', 'alphabet': 'no'}
+
+{'kana': 'は', 'alphabet': 'ha'}
+{'kana': 'ひ', 'alphabet': 'hi'}
+{'kana': 'ふ', 'alphabet': 'hu'}
+{'kana': 'へ', 'alphabet': 'he'}
+{'kana': 'ほ', 'alphabet': 'ho'}
+
+{'kana': 'ま', 'alphabet': 'ma'}
+{'kana': 'み', 'alphabet': 'mi'}
+{'kana': 'む', 'alphabet': 'mu'}
+{'kana': 'め', 'alphabet': 'me'}
+{'kana': 'も', 'alphabet': 'mo'}
+
+{'kana': 'や', 'alphabet': 'ya'}
+{'kana': 'ゆ', 'alphabet': 'yu'}
+{'kana': 'よ', 'alphabet': 'yo'}
+
+{'kana': 'わ', 'alphabet': 'wa'}
+{'kana': 'を', 'alphabet': 'wo'}
+
+{'kana': 'ん', 'alphabet': 'n'}
+
+{'kana': 'が', 'alphabet': 'ga'}
+{'kana': 'ぎ', 'alphabet': 'gi'}
+{'kana': 'ぐ', 'alphabet': 'gu'}
+{'kana': 'げ', 'alphabet': 'ge'}
+{'kana': 'ご', 'alphabet': 'go'}
+
+{'kana': 'ざ', 'alphabet': 'za'}
+{'kana': 'じ', 'alphabet': 'zi'}
+{'kana': 'ず', 'alphabet': 'zu'}
+{'kana': 'ぜ', 'alphabet': 'ze'}
+{'kana': 'ぞ', 'alphabet': 'zo'}
+
+{'kana': 'だ', 'alphabet': 'da'}
+{'kana': 'ぢ', 'alphabet': 'di'}
+{'kana': 'づ', 'alphabet': 'du'}
+{'kana': 'で', 'alphabet': 'de'}
+{'kana': 'ど', 'alphabet': 'do'}
+
+{'kana': 'ば', 'alphabet': 'ba'}
+{'kana': 'び', 'alphabet': 'bi'}
+{'kana': 'ぶ', 'alphabet': 'bu'}
+{'kana': 'べ', 'alphabet': 'be'}
+{'kana': 'ぼ', 'alphabet': 'bo'}
+
+{'kana': 'ぱ', 'alphabet': 'pa'}
+{'kana': 'ぴ', 'alphabet': 'pi'}
+{'kana': 'ぷ', 'alphabet': 'pu'}
+{'kana': 'ぺ', 'alphabet': 'pe'}
+{'kana': 'ぽ', 'alphabet': 'po'}
+
+{'kana': 'きゃ', 'alphabet': 'kya'}
+{'kana': 'きゅ', 'alphabet': 'kyu'}
+{'kana': 'きょ', 'alphabet': 'kyo'}
+
+{'kana': 'しゃ', 'alphabet': 'sya'}
+{'kana': 'しゅ', 'alphabet': 'syu'}
+{'kana': 'しょ', 'alphabet': 'syo'}
+
+{'kana': 'ちゃ', 'alphabet': 'tya'}
+{'kana': 'ちゅ', 'alphabet': 'tyu'}
+{'kana': 'ちょ', 'alphabet': 'tyo'}
+
+{'kana': 'にゃ', 'alphabet': 'nya'}
+{'kana': 'にゅ', 'alphabet': 'nyu'}
+{'kana': 'にょ', 'alphabet': 'nyo'}
+
+{'kana': 'ひゃ', 'alphabet': 'hya'}
+{'kana': 'ひゅ', 'alphabet': 'hyu'}
+{'kana': 'ひょ', 'alphabet': 'hyo'}
+
+{'kana': 'みゃ', 'alphabet': 'mya'}
+{'kana': 'みゅ', 'alphabet': 'myu'}
+{'kana': 'みょ', 'alphabet': 'myo'}
+
