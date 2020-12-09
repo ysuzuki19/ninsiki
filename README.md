@@ -1,0 +1,2 @@
+# ninsiki
+Japanese Speech Recognition
