@@ -10,8 +10,17 @@ from functools import partial
 from utils import ototools
 from utils import syllables
 
+import argparse
+parser = argparse.ArgumentParser(description='Process some integers.')
+parser.add_argument('--all', action='store_true',
+                    help='use all syllables')
+
+args = parser.parse_args()
+
 otos = syllables.load()
-otos = syllables.onlyVowel(otos)
+if not args.all:
+  otos = syllables.onlyVowel(otos)
+  print('ONLY VOWEL')
 
 class OtoRecorder(Frame):
   def __init__(self, oto):
@@ -19,10 +28,6 @@ class OtoRecorder(Frame):
     self.initUI(oto)
 
   def initUI(self, oto):
-    #self.master.title('Buttons')
-    #self.style = Style()
-    #self.style.theme_use('default')
-
     msg = tkinter.Message(self, text=oto["kana"])
     msg.pack()
 

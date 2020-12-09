@@ -1,3 +1,4 @@
+import os
 import sounddevice as sd
 from scipy.io.wavfile import write
 from . import time
@@ -5,7 +6,7 @@ from . import time
 dataset_dir = 'dataset'
 
 fs = 44100
-seconds = 1
+seconds = 0.5
 
 def record(oto):
   oto_recording = sd.rec(int(seconds * fs), samplerate=fs, channels=2)
@@ -13,6 +14,9 @@ def record(oto):
   oto["wave"] = oto_recording
 
 def play(oto):
+  if "wave" not in oto:
+    print('OTO NOT FOUND')
+    return
   sd.play(oto["wave"], fs)
   sd.wait()
 
@@ -30,7 +34,7 @@ def save(otos):
   time_stump = time.now()
   for line in otos:
     for oto in line:
-      print(oto)
-      filename = oto["alphabet"] + time_stump + '.wav'
+      filename = oto["alphabet"] + '_' + time_stump + '.wav'
       filename = os.path.join(dataset_dir, filename)
       write(filename, fs, oto["wave"])
+  print('SAVED OTOS')
